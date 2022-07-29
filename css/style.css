@@ -1,0 +1,127 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  max-width: 600px;
+  height: auto;
+  margin: 0 auto;
+  background-image: url('../bg/min.jpg');
+   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+}
+.app-container, .book-content{
+  margin: 10px;
+  padding: 10px;
+  background-color: #dbbd70; 
+  border-radius: 5px;
+}
+input{
+  margin: 10px;
+  display: block;
+  width: 90%;
+  padding: 10px;
+  background-color: #f0e1bb;
+  border: 1px solid #522807;
+  border-radius: 5px;
+}
+textarea{
+  margin: 10px;
+  display: block;
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #522807;
+  border-radius: 5px;
+  background-color: #f0e1bb;
+  color: #050c24;
+}
+
+.header h2{
+  color: #11082b;
+  text-align: center;
+}
+
+footer{
+  text-align: left;
+  clear: both;
+  padding-top: 10px;
+}
+p, a, h1, h2, input, td{
+  color: #050c24;
+}
+a{
+  text-decoration: none;
+}
+
+h2{
+  text-align: center;
+}
+
+.error, .error-p{
+  color: #C38D9E;
+}
+.header form{
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+}
+.header input{
+    border-radius:15px;
+    padding:5px 5px; 
+    margin-bottom:-10px; 
+    width: auto;
+    height: auto;
+    display:inline-block;
+}
+
+.container_comments {
+    border:1px solid #522807;
+    border-radius:15px;
+}
+.container_comments input, textarea{
+    margin:auto;
+    border-radius:15px;
+    padding:10px 5px; 
+    margin-bottom:20px; 
+}
+
+.container_comments textarea[type="text"] {
+  resize: vertical;
+  height:150px;
+}
+
+.container_comments h1{
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 1.62em;
+}
+
+
+.container_comments h1{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 1.62em;
+
+}
+
+table {
+  border:1px solid #522807;
+  border-radius:15px;    
+  padding:10px 5px; 
+  margin: 20px auto 20px auto;
+  color: #11082b;
+  background-color: #f0e1bb;
+  width: 90%;
+}
+
+.form input, textarea{  
+    margin: 20px auto 20px auto;
+}
+
+.cptch {  
+  text-transform: uppercase;
+}
